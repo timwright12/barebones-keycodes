@@ -1,0 +1,43 @@
+{
+  "name": "@barebones/keycodes",
+  "version": "1.0.0",
+  "description": "An npm package to provide easy key mapping",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm install && npm run build",
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timwright12/barebones-keycodes.git"
+  },
+  "author": {
+    "name": "Tim Wright",
+    "email": "hello@timwright.org",
+    "url": "https://timwright.org",
+    "role": "developer"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/timwright12/barebones-keycodes/issues"
+  },
+  "homepage": "https://github.com/timwright12/barebones-keycodes#readme",
+  "devDependencies": {
+    "@10up/eslint-config": "^1.0.6",
+    "babel-cli": "^6.26.0",
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/register": "^7.0.0",
+    "babel-eslint": "^9.0.0",
+    "babel-loader": "^8.0.2",
+    "eslint": "^5.5.0",
+    "eslint-loader": "^2.1.0",
+    "webpack": "^4.17.2",
+    "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.0.0"
+  }
+}
