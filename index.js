@@ -29,7 +29,7 @@ export const DELETE = 46;
 export const HELP = 47;
 
 /**
- * Number keys
+ * Number keys.
  */
 export const ZERO = 48;
 export const ONE = 49;
@@ -43,7 +43,7 @@ export const EIGHT = 56;
 export const NINE = 57;
 
 /**
- * Alpha keys
+ * Alpha keys.
  */
 export const A = 65;
 export const B = 66;
@@ -73,7 +73,7 @@ export const Y = 89;
 export const Z = 90;
 
 /**
- * Function keys
+ * Function keys.
  */
 export const F1 = 112;
 export const F2 = 113;
